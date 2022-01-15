@@ -1,0 +1,143 @@
+---
+---
+<!-- relevant courses and school projects -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Projects</title>
+        <!-- Add CSS file here -->
+        <link rel="stylesheet" href="style.css"> 
+        <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+        <script defer src="sidebar.js"></script>
+    </head>
+    <body class="body-section">
+        <!-- <div id= "page-sidebar" class="intro-options open">
+            <i class='bx bx-menu' id="btn"></i>
+            <ul class="nav-List">
+                <li>
+                    <i class='bx bxs-home'></i>
+                    <a class='bx list' href="index.html"> Home-Page </a>
+                </li> <br>
+                <li>
+                    <i class='bx bxs-graduation' ></i>
+                    <a class='bx list' href="education.html"> Education </a>
+                </li> <br>
+                <li>
+                    <i class='bx bx-buildings'></i>
+                    <a class='bx list' href="experiences.html"> Experiences </a>
+                </li> <br>
+                <li>
+                    <i class='bx bx-code-alt' ></i>
+                    <a class='bx list' href="projects.html"> Projects </a>
+                </li> <br>
+                <li>
+                    <i class='bx bxs-ball' ></i>
+                    <a class='bx list' href="extras.html"> Extra-Curriculars </a>
+                </li>
+            </ul>
+        </div> -->
+        {% include sidebar.html %}        
+
+        <div id="projects-mainpage" class="heading">
+            <h1> Relevant Projects </h1>
+        </div>
+
+        <div class="container">
+            <div class="timeline">
+                <ul class="nav-List">
+                    <li>
+                        <div class="timeline-content">
+                            <h3 class="date">Fall 2021</h3>
+                            <h2>This Personal Webpage</h2>
+                            <p>
+                                Implemented this personal webpage in Jekyll using HTML, CSS, and JavaScript. This project has been made accessible for people with any kind of color blindness
+                                including Protanopia, Deuteranopes, Tritanopes, and even Monochromacy commonly known as complete color blindness. This was the motivation behind creating the
+                                webpage in grey scale, using larger font family and sizes, using common icons and patterns, distinguishing sections clearly, and providing ease for navigation.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-content">
+                            <h3 class="date">Fall 2021, GUI and Computer Graphics</h3>
+                            <h2>Space Hell Game</h2>
+                            <p>
+                                Implemented a spacecraft game in Unity. Used good software practices like encapsulation and code reusability. 
+                                The concept of separation of concerns, object pooling, and flyweight pattern has also been leveraged. 
+                                Contains enemy bullets and boss feature, a scoring system, level system, and it looks beautiful!
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-content">
+                            <h3 class="date">Summer 2021, Data Structures and Algorithms</h3>
+                            <h2>External Sorting Algorithm</h2>
+                            <p>
+                                Implemented an external sorting algorithm for binary data in Java. Performed disk I/O on random access file
+                                and used Heap Sort algorithm for sorting.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-content">
+                            <h3 class="date">Spring 2021, Intro to HCI</h3>
+                            <h2>Hiking App Prototype</h2>
+                            <p>
+                                Designed a working prototype for a hiking app. Used proper HCI principles including wireframes, storyboards,
+                                and the systematic cycle of design, analyze, prototype, and evaluate.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-content">
+                            <h3 class="date">Spring 2021, Computer Systems</h3>
+                            <h2>Customizable Shell</h2>
+                            <p>
+                                Implemented a simple customizable job control shell in C using the principles of process management and job
+                                control in a UNIX-like operating system.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-content">
+                            <h3 class="date">Spring 2021, Computer Systems</h3>
+                            <h2>Mark-and-Sweep</h2>
+                            <p>
+                                Implemented a simple Mark-and-Sweep Garbage Collection algorithm in python.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-content">
+                            <h3 class="date">Spring 2021, Computer Systems</h3>
+                            <h2>Fork-Join Threadpool</h2>
+                            <p>
+                                Implemented an efficient Fork-Join Framework using the work stealing and thread safe approach.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-content">
+                            <h3 class="date">Fall 2020, Computer Organization</h3>
+                            <h2>Assembler</h2>
+                            <p>
+                                Implemented an Assembler in C which supports a subset of MIPS32 languages (executed on Linux).
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-content">
+                            <h3 class="date">Spring 2019, Engineering Foundation</h3>
+                            <h2>Drone-Project</h2>
+                            <p>
+                                Programming lead - Semester Drone Project - Built a prototype of a drone where I used MATLAB to get meaningful
+                                graphs and to calculate the range for the drone.
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </body>
+</html>

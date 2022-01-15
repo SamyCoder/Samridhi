@@ -1,0 +1,94 @@
+---
+---
+<!-- Can have information of college, gpa, awards, and leadership, clubs -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Education</title>
+        <!-- Add CSS file here -->
+        <link rel="stylesheet" href="style.css"> 
+        <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+        <script defer src="sidebar.js"></script>
+    </head>
+    <body class="body-section">
+
+        {% include sidebar.html %}
+
+        <div id="education-mainpage" class="heading">
+            <h1> Education </h1>
+            
+        </div>
+
+        <nav class="page-navigation">
+            <a class="nav-link" href="#education-division">University</a>
+            <a class="nav-link" href="#awards-division">Achievements</a>
+            <a class="nav-link" href="#leader-division">Leadership</a>
+        </nav>
+
+        <br><br>
+        <center>
+            I want to use my education to combine my interest in computing and arts <br> 
+            to create something meaningful in the hopes of seeing an even better, equitable, and innovative world.
+        </center>
+        <br>
+
+        <div id="education-division" class="division-edu">
+            <section id="education" class="resume-section-edu">
+                <h3 class="section-header">University</h3>
+                <ul>
+                    <li>Virginia Tech, Blacksburg, VA  [Aug 2018 - May 2022(expected)]
+                        <ul>
+                            <li>Bachelor of Science - Computer Science, Minor – Mathematics</li>
+                            <li>GPA: 3.80/4.00, Virginia Tech Honors College</li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+        </div>
+        <div id="vt-image">
+            <img id="vt-pic" src="vt.jpeg" alt="vt-picture">
+        </div>
+        
+
+        <div id="awards-division" class="division-awd">
+            <section id="awards" class="resume-section-edu">
+                <h3 class="section-header">Achievements</h3>
+                <ul>
+                    <li>Received a scholarship from AWC@VT to attend the ACM Richard Tapia 2021 Conference.</li>
+                    <li>Recipient of the CS@VT scholarship (awarded by Virginia Tech, Department of Computer Science) to attend
+                        GHC, 2020 (The Grace Hopper Women in Computing, 2020).</li>
+                    <li>Named on the Dean’s List for all semesters at Virginia Tech (Fall 2018 – Spring 2021).</li>
+                </ul>
+            </section>
+        </div>
+        
+        <div id="leader-division" class="division-lead">
+            <section id="leadership" class="resume-section-edu">
+                <h3 class="section-header">Leadership and Clubs</h3>
+                <ul>
+                    <li>CS Ambassador at CS@VirginiaTech [Fall 2020 - Present]</li>
+                        <ul>
+                            <li>Represents the CS Department to prospective students, help with the weekly information sessions, open house and several other recruitment events.</li>
+                            <li>Helps the department administration with the student perspective by coming up with innovative ideas that could help the students at CS@VT</li>
+                            <li>I am also the alteranate CS Ambassador representative at the CS@VT Department Faculty Meetings.</li>
+                        </ul>
+                </ul>
+                <ul>
+                    <li>Member at the Association of Women in Computing at Virginia Tech. [Fall 2012 - Present]</li>
+                </ul>
+                <ul>
+                    <li>Co-founder of the CSX club at Virginia Tech</li>
+                </ul>
+                <ul>
+                    <li>Rewriting the Code (RTC) Member [Fall 2020 - Present]</li>
+                </ul>
+            </section>
+        </div>
+        <div id="amb-image">
+            <img id="amb-pic" src="amb.jpg" alt="logo-picture">
+        </div>
+        
+
+    </body>
+</html>

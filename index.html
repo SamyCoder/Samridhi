@@ -1,0 +1,75 @@
+---
+---
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Resume</title>
+        <!-- Add CSS file here -->
+        <link rel="stylesheet" href="style.css"> 
+        <!-- This is taken form W3 schools, https://www.w3schools.com/howto/howto_css_social_media_buttons.asp -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- This is taken from https://boxicons.com/?query= for the logos, side nav bar idea from CodingLab-->
+        <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+        <script defer src="sidebar.js"></script>
+    </head>
+    <body>
+        
+        <!-- <div id= "page-sidebar" class="intro-options open">
+            <i class='bx bx-menu' id="btn"></i>
+
+            <ul class="nav-List">
+                <li>
+                    <i class='bx bxs-home'></i>
+                    <a class='bx list' href="index.html"> Home-Page </a>
+                </li> <br>
+                <li>
+                    <i class='bx bxs-graduation' ></i>
+                    <a class='bx list' href="education.html"> Education </a>
+                </li> <br>
+                <li>
+                    <i class='bx bx-buildings'></i>
+                    <a class='bx list' href="experiences.html"> Experiences </a>
+                </li> <br>
+                <li>
+                    <i class='bx bx-code-alt' ></i>
+                    <a class='bx list' href="projects.html"> Projects </a>
+                </li> <br>
+                <li>
+                    <i class='bx bxs-ball' ></i>
+                    <a class='bx list' href="extras.html"> Extra-Curriculars </a>
+                </li>
+            </ul>
+        </div> -->
+
+        {% include sidebar.html %}
+
+        <div id="resume-mainpage" class="heading">
+            <h1> Samridhi Roshan </h1>
+            <img id="pro-pic" src="SamPro.jpg" alt="profile-picture">
+        </div>
+
+        <div id="intro" class="heading">
+            <p class="introduction">
+                <h5>Hi, My name is Samridhi Roshan. Welcome to my site!</h5>
+                <h2> Tech Enthusiast | Futuristic | Creative | Philosophical </h2>
+            </p>
+        </div>
+
+        <div id="bottom-nav" class="navbar">
+            <nav>
+                Connect with me! <br>
+                <!-- This code is taken from https://www.w3schools.com/howto/howto_css_social_media_buttons.asp -->
+                <a href="https://www.linkedin.com/in/samridhi-roshan-06a153187" class="fa fa-linkedin"><br>LinkedIn</a>
+                <a href="https://www.facebook.com/samridhi.roshan" class="fa fa-facebook"><br>Facebook</a>
+                <a href="https://twitter.com/roshansamridhi" class="fa fa-twitter"><br>Twitter</a>
+                <a href="https://www.instagram.com/samridhiroshan/?hl=en" class="fa fa-instagram"><br>Instagram</a>
+                <a href=mailto:samridhi18@vt.edu class="fa fa-google"><br>Email</a>
+                
+            </nav>
+            <br>
+            ⓒ Samridhi Roshan, 2022
+        </div>
+    </body>
+</html>

@@ -1,0 +1,275 @@
+body {
+    background-color: black;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body h1{
+    font-size: 3em;
+}
+
+h3{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+}
+h4{
+    text-align: center;
+}
+
+.heading{
+    text-align: center;
+    text-decoration: solid;
+    color: white;
+}
+
+/*This is for sidebar*/
+.bx{
+    color:rgb(8, 8, 8);
+    font-size: 2em;
+}
+
+.bx-menu:hover{
+    cursor: pointer;
+}
+
+.intro-options{
+    top: 0;
+    left: 0;
+    position: fixed;
+    height: 100%;
+    width: 22%;
+    background: white;
+    padding: 2px 8px;
+    z-index: 100; /* Makes it come before all the other contents */
+}
+
+.intro-options.open{
+    width: 4%;
+  }
+.intro-options.open li .list{
+    display: none;
+}
+.nav-List{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#pro-pic{
+    border-radius: 50%;
+    height: 17em;
+    width: 16em;
+}
+
+/* This is the styling for the navbar */
+.navbar{
+    text-align: center;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: small;
+}
+
+.navbar a {
+    float: center;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background-color: rgb(91, 91, 99);
+    text-decoration: underline;
+  }
+
+  /*This is for Education Page*/
+
+  .body-section{
+    color: white;
+    margin-left: 5%;
+}
+
+
+#amb-pic{
+    margin-top: 90px;
+    height: 20em;
+    width: 20em;
+    border-radius: 30%;
+}
+
+#vt-pic{
+    margin: 40px;
+    height: 17em;
+    width: 20em;
+    border-radius: 20%;
+}
+
+
+.division-edu{
+    margin: 80px;
+    float: left;
+    box-sizing: border-box;
+    border: 14px solid rgb(250, 248, 248);
+    width: 50%;
+    /* background-color: 	#383838; */
+}
+
+.division-lead{
+    margin: 80px;
+    float: left;
+    box-sizing: border-box;
+    border: 14px solid rgb(248, 247, 247);
+    width: 60%;
+    height: 80%;
+    /* background-color: 	#696969; */
+}
+
+.division-awd{
+    margin-top: 120px;
+    margin-bottom: 120px;
+    margin-left: 7%;
+    width: 85%;
+    box-sizing: border-box;
+    border: 14px solid rgb(248, 247, 247);
+    /* background-color: 	#505050; */
+}
+
+.page-navigation{
+    text-align: center;
+}
+a.nav-link{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border: 3px solid rgb(59, 57, 57);
+    border-radius: 1em;
+    background-color: azure;
+    padding: 1ex;
+}
+a.nav-link:hover{
+    text-decoration: underline;
+    color: rgb(3, 3, 3);
+}
+
+/* This is for projects */
+/* The concept of a timeline structure style is taken from https://codepen.io/Web_Cifar/pen/jObBvqN */
+.container {
+    min-height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 65px 0;
+  }
+
+  .timeline {
+    width: 80%;
+    height: auto;
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .timeline ul li {
+    padding: 20px;
+    background-color: #26272b;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+
+  .timeline ul li {
+    width: 50%; /* half of the area */
+    position: relative;
+    margin-bottom: 60px;
+  }
+  .timeline ul li:nth-child(odd) {
+    float: left;
+    /* clear: right; */
+    transform: translateX(-30px);
+    border-radius: 20px 0px 20px 20px;
+  }
+  .timeline ul li:nth-child(even) {
+    float: right;
+    /* clear: left; */
+    transform: translateX(40px);
+    border-radius: 0px 20px 20px 20px;
+  }
+  .timeline:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 3px;
+    height: 100%;
+    background-color: gray;
+  }
+  .timeline-content .date {
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+  }
+
+  /* this is for experiences and extras */
+  .grey-color1{
+      background-color: 	#202020;
+  }
+  .grey-color2{
+    background-color: 	#383838;
+  }
+  .grey-color3{
+    background-color: 	#505050;
+  }
+  .grey-color4{
+    background-color: 	#696969;
+  }
+  .grey-color5{
+    background-color: 	#787878;
+  }
+  .grey-color6{
+    background-color: 	#989898;
+    color: black;
+  }
+  .grey-color7{
+    background-color: 	#A9A9A9;
+    color: black;
+  }
+  .grey-color8{
+    background-color:	#C0C0C0;
+    color: black;
+  }
+
+  .resume-section {
+      height: 50vh;
+      box-sizing: border-box;
+      padding: 25px;
+      text-align: center;
+  }
+  #coArt{
+      height: 90vh;
+  }
+
+  #instaPicAcc{
+      color: blanchedalmond;
+      font-style: italic;
+      font-size: 2em;
+  }
+  #art-pic{
+    height: 20em;
+    width: 30em;
+  }
+  /* The greysale conversion taken from https://www.adfreak.de/en/blog/black-and-white-hover-effect-for-images-and-photos-with-divi/ */
+  #art-pic {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    opacity: .9;
+}
+#art-pic:hover {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+  opacity: 1;
+}
+
