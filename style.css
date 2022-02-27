@@ -215,33 +215,33 @@ a.nav-link:hover{
 
   /* this is for experiences and extras */
   .grey-color0{
-      background-color:     #181818;
+      background-color:     #202020;
   }
   .grey-color1{
-      background-color: 	#202020;
+      background-color: 	#383838;
   }
   .grey-color2{
-    background-color: 	#383838;
-  }
-  .grey-color3{
     background-color: 	#505050;
   }
-  .grey-color4{
+  .grey-color3{
     background-color: 	#696969;
   }
-  .grey-color5{
+  .grey-color4{
     background-color: 	#787878;
   }
-  .grey-color6{
+  .grey-color5{
     background-color: 	#989898;
-    color: black;
   }
-  .grey-color7{
+  .grey-color6{
     background-color: 	#A9A9A9;
     color: black;
   }
+  .grey-color7{
+    background-color: 	#C0C0C0;
+    color: black;
+  }
   .grey-color8{
-    background-color:	#C0C0C0;
+    background-color:	#D3D3D3;
     color: black;
   }
 
