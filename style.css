@@ -214,8 +214,11 @@ a.nav-link:hover{
   }
 
   /* this is for experiences and extras */
+  .greay-color9{
+      background-color:    #202020;
+  }
   .grey-color0{
-      background-color:     #202020;
+      background-color:     #33363D;
   }
   .grey-color1{
       background-color: 	#383838;
