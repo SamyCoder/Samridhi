@@ -214,41 +214,38 @@ a.nav-link:hover{
   }
 
   /* this is for experiences and extras */
-  .grey-color10{
-      background-color:    #202020;
+  .grey-color1{
+      background-color: 	#f2f2f2;
+  }
+  .grey-color2{
+    background-color: 	#e6e6e6;
+  }
+  .grey-color3{
+    background-color: 	#d9d9d9;
+  }
+  .grey-color4{
+    background-color: 	#cccccc;
+  }
+  .grey-color5{
+    background-color: 	#bfbfbf;
+  }
+  .grey-color6{
+    background-color: 	#a6a6a6;
+    color: black;
+  }
+  .grey-color7{
+    background-color: 	#8c8c8c;
+    color: black;
+  }
+  .grey-color8{
+    background-color:	#666666;
+    color: black;
   }
   .grey-color9{
       background-color:    #4d4d4d;
   }
-  .grey-color0{
-      background-color:     #33363D;
-  }
-  .grey-color1{
-      background-color: 	#383838;
-  }
-  .grey-color2{
-    background-color: 	#505050;
-  }
-  .grey-color3{
-    background-color: 	#696969;
-  }
-  .grey-color4{
-    background-color: 	#787878;
-  }
-  .grey-color5{
-    background-color: 	#989898;
-  }
-  .grey-color6{
-    background-color: 	#A9A9A9;
-    color: black;
-  }
-  .grey-color7{
-    background-color: 	#C0C0C0;
-    color: black;
-  }
-  .grey-color8{
-    background-color:	#D3D3D3;
-    color: black;
+  .grey-color10{
+      background-color:    #383838;
   }
 
   .resume-section {
