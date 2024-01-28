@@ -216,18 +216,23 @@ a.nav-link:hover{
   /* this is for experiences and extras */
   .grey-color1{
       background-color: 	#f2f2f2;
+      color: black;
   }
   .grey-color2{
     background-color: 	#e6e6e6;
+    color: black;
   }
   .grey-color3{
     background-color: 	#d9d9d9;
+    color: black;
   }
   .grey-color4{
     background-color: 	#cccccc;
+    color: black;
   }
   .grey-color5{
     background-color: 	#bfbfbf;
+    color: black;
   }
   .grey-color6{
     background-color: 	#a6a6a6;
@@ -235,11 +240,9 @@ a.nav-link:hover{
   }
   .grey-color7{
     background-color: 	#8c8c8c;
-    color: black;
   }
   .grey-color8{
     background-color:	#666666;
-    color: black;
   }
   .grey-color9{
       background-color:    #4d4d4d;
